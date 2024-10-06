@@ -12,6 +12,7 @@ export const Header = () => {
       <header className={"header center " + themename}>
         <h3>
           <a href="#home" className="link">
+            I'm Bondi{" "}
             <span>
               <img src={Image} alt="logo" />
             </span>

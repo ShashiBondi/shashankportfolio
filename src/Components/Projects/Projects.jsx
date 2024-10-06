@@ -12,6 +12,7 @@ import {
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
+import portfolio from "../../assets/portfolio.png";
 export const Projects = () => {
   return (
     <>
@@ -105,7 +106,7 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
+                  <img src={portfolio} alt="Portfolio" />
                 </div>
               </div>
               <div className="project_information">
