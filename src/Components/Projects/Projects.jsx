@@ -126,7 +126,11 @@ export const Projects = () => {
                   <SiNetlify />
                 </div>
                 <div>
-                  <a href="" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/ShashiBondi/shashankportfolio.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span type="button" className="btns onbt">
                       View Code
                     </span>
