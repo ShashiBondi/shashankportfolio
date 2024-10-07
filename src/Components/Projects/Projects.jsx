@@ -17,7 +17,9 @@ export const Projects = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title different">Projects</h2>
+        <h2 className="section__title" data-aos="fade-right">
+          <span className="different">PROJECTS</span>
+        </h2>
         <div className="allProjects">
           <div className="projects_container" data-aos="fade-right">
             <div className="project">

@@ -25,14 +25,13 @@ export default function App() {
       </section>
       <main>
         <About />
-        <Github />
         <section id="#experience">
           <Experience />
         </section>
         <section id="#skills">
           <Techstacks />
         </section>
-        <section id="#projects">
+        <section id="#projects" style={{ marginTop: "120px" }}>
           <Projects />
         </section>
         <section id="#contact">

@@ -7,8 +7,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 import WorkIcon from "@material-ui/icons/Work";
-import SchoolIcon from "@material-ui/icons/School";
-import StarRateIcon from "@material-ui/icons/StarRate";
 import { ThemeContext } from "../../Context/theme";
 
 export const Experience = () => {
@@ -26,7 +24,7 @@ export const Experience = () => {
   }, [themename]);
   return (
     <>
-      <div className="section mainsection">
+      <div className="section mainsection" style={{ marginTop: "0px" }}>
         <h2 className="section__title" data-aos="fade-right">
           <span className="different">MY EXPERIENCE</span>
         </h2>
@@ -60,15 +58,30 @@ export const Experience = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Brane Group
+              Brane Enterprises
             </h4>
-            <p data-aos="fade-right">
-              Managing Team of 15 Student Guides directly and 100-150 students
-              indirectly with help of student guides.
-            </p>
+            <ul data-aos="fade-right">
+              <li>
+                Developed a Recruiter Assistance Application with LinkedIn
+                People’s API for enhanced candidate search.
+              </li>
+              <li>
+                Implemented advanced search filters, boosting efficiency in
+                candidate sourcing.
+              </li>
+              <li>
+                Built API integrations for retrieving contact details, with
+                credit management for controlled access.
+              </li>
+              <li>
+                Created features to manage and export candidate data, improving
+                recruitment workflows.
+              </li>
+            </ul>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
-            date={"June 2022 - Dec 2023"}
+            date={"Jun 2022 - Dec 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -90,7 +103,7 @@ export const Experience = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Software Engineer
+              Software Developer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -98,12 +111,20 @@ export const Experience = () => {
             >
               Capgemini Engineering
             </h4>
-            <p data-aos="fade-right">
-              Mentoring and clearing student's doubts via one to one and one to
-              all video calls, Motivating students to do hard work, provides
-              emotional support to them & Helping students to start their career
-              in Tech.
-            </p>
+            <ul data-aos="fade-right">
+              <li>
+                Built logistics solutions for DP World, improving tracking and
+                customs verification.
+              </li>
+              <li>
+                Created REST APIs for supply chain management, enhancing data
+                consistency.
+              </li>
+              <li>
+                Developed secure payment system components for Doha Bank's
+                credit card operations.
+              </li>
+            </ul>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
