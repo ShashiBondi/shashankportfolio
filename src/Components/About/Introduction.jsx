@@ -30,8 +30,8 @@ export const Introduction = () => {
                 </span>{" "}
                 I hold 2+ years of experience as a Java Full Stack Developer.
                 With expertise in Java SpringBoot and ReactJS, I am successful
-                in delivering the best outcomes at the organisations I am
-                working in.
+                in delivering the best outcomes and delivering the projects
+                efficiently
               </h4>
             </div>
           </div>
