@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
-import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsFillTelephoneFill, BsWhatsapp } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import emailjs from "emailjs-com";
 import { Grid, TextField, Button, Typography } from "@mui/material";
