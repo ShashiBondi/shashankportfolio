@@ -13,6 +13,7 @@ import {
   SiKubernetes,
   SiFirebase,
   SiNetlify,
+  SiRabbitmq,
 } from "react-icons/si";
 
 export const Techstacks = () => {
@@ -59,6 +60,10 @@ export const Techstacks = () => {
             <h5>MySQL</h5>
           </div>
           <div>
+            <SiRabbitmq />
+            <h5>RabbitMQ</h5>
+          </div>
+          <div>
             <SiRedis />
             <h5>Redis</h5>
           </div>
@@ -70,6 +75,7 @@ export const Techstacks = () => {
             <SiKubernetes />
             <h5>Kubernetes</h5>
           </div>
+
           <div>
             <FaAws />
             <h5>AWS</h5>
