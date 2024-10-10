@@ -54,6 +54,13 @@ export const Contact = () => {
             <a href="tel:+919441922120" target="_blank" rel="noreferrer">
               <BsFillTelephoneFill className="phone" />
             </a>
+            <a
+              href="https://wa.me/919441922120?text=Hello%20there!%20I%20would%20like%20to%20get%20in%20touch."
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsWhatsapp className="whatsapp" />
+            </a>
           </div>
 
           <div className="mailNumber">
