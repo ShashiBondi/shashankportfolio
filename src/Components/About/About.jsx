@@ -30,10 +30,11 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          I am a Java Full Stack Developer with Expertise in Java SpringBoot and
-          ReactJS. I am always keen about learning new technologies. I can work
-          as a Full Stack Developer, Backend Developer and Frontend Developer as
-          well. I am exploring new opportunities that suites my interest.
+          I am a Java Full Stack Developer with expertise in Java Spring Boot
+          and ReactJS, I have a strong passion for learning new technologies. My
+          skills enable me to work across the stack as a Full Stack Developer,
+          Backend Developer, or Frontend Developer. Currently, I’m exploring
+          opportunities that align with my interests and expertise.
         </p>
         <div className="about__contact center">
           <a

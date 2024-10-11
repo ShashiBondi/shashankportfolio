@@ -20,18 +20,18 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, My name is{" "}
-                <span className="different">Bondi Shashank </span> and I am from
-                Hyderabad, India. I have completed my B.Tech from
+                Hello everyone, I am{" "}
+                <span className="different">Bondi Shashank </span>from
+                Hyderabad, India. I graduated with a B.Tech from
                 <span className="different">
                   {" "}
                   National Institute of Technology, Tiruchirappalli (NIT
                   TRICHY).
                 </span>{" "}
-                I hold 2+ years of experience as a Java Full Stack Developer.
-                With expertise in Java SpringBoot and ReactJS, I am successful
-                in delivering the best outcomes and delivering the projects
-                efficiently
+                With over 2 years of experience as a Java Full Stack Developer,
+                I have honed my expertise in Java Spring Boot and ReactJS,
+                consistently delivering high-quality projects with efficiency
+                and precision.
               </h4>
             </div>
           </div>
