@@ -26,7 +26,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://res.cloudinary.com/practicaldev/image/fetch/s--Z234a5V0--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/43qvtzl15dfdwpmpxz6x.png"
+                    src="https://www.mirrorfly.com/assets/images/tutorials/build-react-js-chat-app/build-react-js-chat-app-og.png"
                     alt="Chat Application"
                   />
                 </div>
