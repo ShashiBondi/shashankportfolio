@@ -35,7 +35,7 @@ export const Experience = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
+              // textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
@@ -52,7 +52,7 @@ export const Experience = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Software Development Engineer
+              Software Engineer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -60,24 +60,26 @@ export const Experience = () => {
             >
               Brane Enterprises
             </h4>
-            <ul data-aos="fade-right">
+            <ol data-aos="fade-right">
               <li>
-                Developed a Recruiter Assistance Application with LinkedIn
-                People’s API for enhanced candidate search.
+                Designed and developed a Recruiter Assistance Application,
+                Talent Scout, integrating LinkedIn People’s API for enhanced
+                candidate search and management.
               </li>
               <li>
-                Implemented advanced search filters, boosting efficiency in
-                candidate sourcing.
+                Implemented advanced search filters (job title, location,
+                LinkedIn URL), improving candidate sourcing efficiency.
               </li>
               <li>
-                Built API integrations for retrieving contact details, with
-                credit management for controlled access.
+                Integrated APIs for contact information retrieval and
+                implemented a credit management system for controlled data
+                access.
               </li>
               <li>
-                Created features to manage and export candidate data, improving
-                recruitment workflows.
+                Developed candidate collection management features to group,
+                save, and export candidate data in CSV format.
               </li>
-            </ul>
+            </ol>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -86,7 +88,7 @@ export const Experience = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
+              // textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
@@ -103,7 +105,7 @@ export const Experience = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Software Developer
+              Software Engineer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -111,20 +113,80 @@ export const Experience = () => {
             >
               Capgemini Engineering
             </h4>
-            <ul data-aos="fade-right">
+            <ol data-aos="fade-right">
               <li>
-                Built logistics solutions for DP World, improving tracking and
-                customs verification.
+                Contributed to the development of the Smart Healthcare
+                Management System for Cera, improving patient care with features
+                like appointment scheduling, home consultations, and medical
+                record management.
               </li>
               <li>
-                Created REST APIs for supply chain management, enhancing data
-                consistency.
+                Integrated third-party payment providers (e.g., Stripe, PayPal)
+                and JWT-based authentication for secure data management.
               </li>
               <li>
-                Developed secure payment system components for Doha Bank's
-                credit card operations.
+                Designed real-time notification systems using RabbitMQ to reduce
+                appointment scheduling errors and streamline patient
+                interactions.
               </li>
-            </ul>
+              <li>
+                Developed an insurance claims module for document submission and
+                integration with multiple insurance providers.
+              </li>
+            </ol>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            date={"Jun 2022 - Dec 2023"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              // textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Software Engineer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Capgemini Engineering
+            </h4>
+            <ol data-aos="fade-right">
+              <li>
+                Developed the MSC International Freight Management System to
+                manage freight booking, container tracking, and vessel
+                allocation.
+              </li>
+              <li>
+                Implemented features for real-time vessel allocation, document
+                verification for customs and insurance, and secure JWT-based
+                authentication for all stakeholders.
+              </li>
+              <li>
+                Built real-time notifications for cargo movements, vessel
+                schedules, and transit periods using RabbitMQ.
+              </li>
+              <li>
+                Streamlined container booking processes, improving logistics and
+                cargo management efficiency.
+              </li>
+            </ol>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

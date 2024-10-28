@@ -59,6 +59,7 @@ const ContactForm = () => {
               value={formData.name}
               onChange={handleChange}
               variant="outlined"
+              multiline
             />
           </Grid>
 
